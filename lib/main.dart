@@ -100,7 +100,7 @@ class MyHomePageState extends State<MyHomePage> {
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 Expanded(child: calcButton("c", colorFunc, colorMain)),
-                Expanded(child: calcButton("±", colorFunc, colorMain)),
+                Expanded(child: calcButton("+/-", colorFunc, colorMain)),
                 Expanded(child: calcButton("%", colorFunc, colorMain)),
                 Expanded(child: calcButton("÷", colorCalc, colorText)),
               ],
